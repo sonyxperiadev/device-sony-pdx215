@@ -1,0 +1,58 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Surf", "QRD"],
+    "soc_id": ["415"]
+  },
+  "ak0991x_0_platform":{
+    "owner": "sns_ak0991x",
+    ".orient":{
+      "owner": "sns_ak0991x",
+      "x":{ "type": "str", "ver": "1",
+        "data": "+x"
+      },
+      "y":{ "type": "str", "ver": "1",
+        "data": "-y"
+      },
+      "z":{ "type": "str", "ver": "1",
+        "data": "-z"
+      }
+    },
+    ".mag":{
+      "owner": "sns_ak0991x",
+      ".fac_cal":{
+        "owner": "sns_ak0991x",
+        ".corr_mat":{
+          "owner": "sns_ak0991x",
+          "0_0":{ "type": "flt", "ver": "2",
+            "data": "1.021934"
+          },
+          "0_1":{ "type": "flt", "ver": "2",
+            "data": "0.048109"
+          },
+          "0_2":{ "type": "flt", "ver": "2",
+            "data": "-0.015554"
+          },
+          "1_0":{ "type": "flt", "ver": "2",
+            "data": "0.048109"
+          },
+          "1_1":{ "type": "flt", "ver": "2",
+            "data": "0.990618"
+          },
+          "1_2":{ "type": "flt", "ver": "2",
+            "data": "-0.005879"
+          },
+          "2_0":{ "type": "flt", "ver": "2",
+            "data": "-0.015554"
+          },
+          "2_1":{ "type": "flt", "ver": "2",
+            "data": "-0.005879"
+          },
+          "2_2":{ "type": "flt", "ver": "2",
+            "data": "1.013207"
+          }
+        }
+      }
+    }
+  }
+}
