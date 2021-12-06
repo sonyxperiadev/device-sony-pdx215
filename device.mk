@@ -44,10 +44,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
-# BT/Wifi patch file
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/firmware/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan.bin
-
 # Touch firmware
 PRODUCT_COPY_FILES += \
 
