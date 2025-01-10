@@ -15,5 +15,5 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_xqbc52.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_xqbc52-eng \
-    aosp_xqbc52-userdebug
+    aosp_xqbc52-ap2a-eng \
+    aosp_xqbc52-ap2a-userdebug
